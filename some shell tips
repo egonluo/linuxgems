@@ -1,0 +1,2 @@
+find / -type f -ls | sort -k 7 -r -n | head -10
+find . -type f -exec ls -al {} \; | sort -k 5 -r -n | head -10
